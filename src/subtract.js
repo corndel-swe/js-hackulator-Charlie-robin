@@ -7,11 +7,9 @@
  */
 function subtract(x, y) {
   if (x < y) {
-    return y - x
-  }
-
-  if (y < x) {
-    return x - y
+    return y - x;
+  } else {
+    return x - y;
   }
 }
 
