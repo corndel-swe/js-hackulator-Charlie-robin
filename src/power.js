@@ -3,7 +3,9 @@
  * power(2, 3) => 8
  */
 function power(x, n) {
-  return x ^ n
+  // return x ^ n
+  return x ** n;
+  // return Math.pow(x , n)
 }
 
 export default power
